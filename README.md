@@ -6,12 +6,10 @@
 __LSTM과 Headline Move를 적용한 주가예측 모델링__
 
 ### 개발환경
-Python 3.8
-
-TensorFlow: 2.3.1
-
-Pandas: 1.2.0
-
-Numpy: 1.19.2
-
-FinanceDataReader: 0.9.10
+module|version
+---|---
+Python|3.8
+TensorFlow|2.3.1
+Pandas|1.2.0
+Numpy|1.19.2
+FinanceDataReader|0.9.10
