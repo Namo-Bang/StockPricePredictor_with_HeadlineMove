@@ -35,5 +35,32 @@ model|This directory contains Word2Vec model and LSTM model
 scaler|This directory contains MinMaxScaler of sklearn
 
 #### Methology
-![image](https://user-images.githubusercontent.com/48271454/105496117-6624c100-5d00-11eb-90ca-38054dee804c.png)
+![image](https://user-images.githubusercontent.com/48271454/105496468-d9c6ce00-5d00-11eb-933c-0c7bc1210e22.png)
 
+---
+
+#### Graph of loss
+![image](https://user-images.githubusercontent.com/48271454/105496356-b6038800-5d00-11eb-97dd-031d662c6f8e.png)
+
+#### Error Correction
+
+We did error corrction. Because we do not have enough data, so model shows over 3% error when using MAPE metric.
+
+In addition, the goal of our project is not to predict an increase or decrease, but to precisely match the stock's next day's open, high, low, and close prices.
+
+To achieve the goal, we made an assumption that the error of the previous day and that of the next day would be similar,
+because they both use almost the same data, and we made a formula. The formula is as follows.
+
+![image](https://user-images.githubusercontent.com/48271454/105497547-58703b00-5d02-11eb-83c2-8325a2d02e3c.png)
+
+As shown in the table below, after calibration, we were able to obtain better model performance.
+
+![image](https://user-images.githubusercontent.com/48271454/105497948-e3e9cc00-5d02-11eb-9d86-edbc54594658.png)
+
+#### Loss graph after correction
+![image](https://user-images.githubusercontent.com/48271454/105498259-493dbd00-5d03-11eb-81ad-b5bb034f937f.png)
+
+---
+#### Limitation
+
+We only trained two years of data from the semiconductor, pharmaceutical (bio) and telecommunications industries. In this industry, the model seems to predict somewhat closer (since previous studies have focused on binary predictions such as increase or decrease, this also has no clear criterion), but it is vulnerable to rapid increa
