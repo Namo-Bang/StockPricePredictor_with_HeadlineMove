@@ -10,6 +10,7 @@ module|version
 ---|---
 Python|3.8
 TensorFlow|2.3.1
+gensim|3.8.3
 Pandas|1.2.0
 Numpy|1.19.2
 FinanceDataReader|0.9.10
