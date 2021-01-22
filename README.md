@@ -17,7 +17,7 @@ FinanceDataReader|0.9.10
 
 ---
 __directory__
-
+```
 +--data
       +--headline
       +--train_test
@@ -25,3 +25,4 @@ __directory__
 +--model
 +--scaler
       +--train_scaler
+```
