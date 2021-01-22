@@ -3,7 +3,7 @@
 ## Project of Finance 2nd Team in Insight, the party gathered to study data science
 
 ### Project Topic
-__Stock price prediction modeling for short-term investment subsidies using LSTM and Headline Move__
+__Stock price prediction modeling for short-term investment using LSTM and Headline Move__
 
 ### Engineering Environment
 module|version
