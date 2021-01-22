@@ -16,7 +16,7 @@ Numpy|1.19.2
 FinanceDataReader|0.9.10
 
 ---
-### Director
+### Directory
 ```
 +--data
       +--headline
