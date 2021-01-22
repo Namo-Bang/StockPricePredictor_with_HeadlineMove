@@ -14,3 +14,14 @@ Gensim|3.8.3
 Pandas|1.2.0
 Numpy|1.19.2
 FinanceDataReader|0.9.10
+
+---
+__directory__
+
++--data
+      +--headline
+      +--train_test
+      +--vector
++--model
++--scaler
+      +--train_scaler
