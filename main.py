@@ -13,11 +13,13 @@ import FinanceDataReader as fdr
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import MinMaxScaler
+from tqdm import tqdm
 
 import CrawlingHeadline
 import HeadlineClassifier
 from HeadlineMove import datechange, agg
 
+tqdm.pandas()
 
 # In[ ]:
 
@@ -45,9 +47,11 @@ if __name__=='__main__':
         print('Save classifed headline')
         
         headline = pd.read_csv('./data/headline/Classified_headline.csv')
-        headline.vector = headline.vector.apply(lambda x: re.sub(' +','',x[:2])+re.sub(' +',',',x)[2:])
-        headline.vector = headline.vector.apply(literal_eval)
-        headline.vector = headline.vector.apply(np.array)
+        
+        print('\nProcessing New Headline')
+        headline.vector = headline.vector.progress_apply(lambda x: re.sub(' +','',x[:2])+re.sub(' +',',',x)[2:])
+        headline.vector = headline.vector.progress_apply(literal_eval)
+        headline.vector = headline.vector.progress_apply(np.array)
         
         headline = pd.concat([df_clf,headline])
         headline.to_csv('./data/headline/Classified_headline.csv',index=False)
