@@ -1,11 +1,11 @@
-# StockPricePredictor_with_HeadlineMove
+# Stock Price Predictor with HeadlineMove
 ---
-## 서강대학교 경영 빅데이터 분석 학회 Insight <금융 2팀> Project
+## Project of Finance 2nd Team in Insight, the party gathered to study data science
 
-### 프로젝트 주제
-__LSTM과 Headline Move를 적용한 주가예측 모델링__
+### Project Topic
+__Stock price prediction modeling for short-term investment subsidies using LSTM and Headline Move__
 
-### 개발환경
+### Engineering Environment
 module|version
 ---|---
 Python|3.8
@@ -16,7 +16,7 @@ Numpy|1.19.2
 FinanceDataReader|0.9.10
 
 ---
-__directory__
+__Directory__
 ```
 +--data
       +--headline
@@ -26,3 +26,13 @@ __directory__
 +--scaler
       +--train_scaler
 ```
+directory name|description
+---|---
+headline|This directory contains all Headline data
+train_test|This directory contains test data used to measure model performance
+vector|This directory contains sumed 100d vectorized Headline data
+model|This directory contains Word2Vec model and LSTM model
+scaler|This directory contains MinMaxScaler of sklearn
+
+#### Methology
+
