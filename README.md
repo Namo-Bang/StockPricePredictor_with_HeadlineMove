@@ -55,7 +55,7 @@ because they both use almost the same data, and we made a formula. The formula i
 
 As shown in the table below, after calibration, we were able to obtain better model performance.
 
-![image](https://user-images.githubusercontent.com/48271454/105497948-e3e9cc00-5d02-11eb-9d86-edbc54594658.png)
+![image](https://user-images.githubusercontent.com/48271454/105499335-aa19c500-5d04-11eb-9b81-b4a5bb7df201.png)
 
 #### Loss graph after correction
 ![image](https://user-images.githubusercontent.com/48271454/105498259-493dbd00-5d03-11eb-81ad-b5bb034f937f.png)
