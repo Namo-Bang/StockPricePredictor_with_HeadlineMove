@@ -57,7 +57,7 @@ if __name__=='__main__':
         headline.to_csv('./data/headline/Classified_headline.csv',index=False)
         
         print('Make new vectors of new headlines')
-        headline['date'] = headline.date.apply(lambda x: x.strftime('%Y-%m-%d %H:%M:%S') if type(x)!=str else x)
+        headline['date'] = headline.date.progress_apply(lambda x: x.strftime('%Y-%m-%d %H:%M:%S') if type(x)!=str else x)
         headline['Date'] = headline.date.apply(datechange)
         industry = {i:headline[headline.산업 == i][['Date','산업','title','vector']] for i in ['반도체','바이오','통신']}
         
