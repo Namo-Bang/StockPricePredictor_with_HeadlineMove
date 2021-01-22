@@ -35,4 +35,5 @@ model|This directory contains Word2Vec model and LSTM model
 scaler|This directory contains MinMaxScaler of sklearn
 
 #### Methology
+![image](https://user-images.githubusercontent.com/48271454/105496117-6624c100-5d00-11eb-90ca-38054dee804c.png)
 
