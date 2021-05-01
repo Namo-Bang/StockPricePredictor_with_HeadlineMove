@@ -57,7 +57,7 @@ As shown in the table below, after calibration, we were able to obtain better mo
 
 ![image](https://user-images.githubusercontent.com/48271454/105499335-aa19c500-5d04-11eb-9b81-b4a5bb7df201.png)
 
-### Loss graph after correction
+### Prediction graph after correction
 ![image](https://user-images.githubusercontent.com/48271454/105498259-493dbd00-5d03-11eb-81ad-b5bb034f937f.png)
 
 ---
