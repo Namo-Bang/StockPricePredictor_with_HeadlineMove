@@ -65,7 +65,7 @@ As shown in the table below, after calibration, we were able to obtain better mo
 ---
 ### Limitation
 
-We only trained two years of data from the semiconductor, pharmaceutical (bio) and telecommunications industries. In this industry, the model seems to predict somewhat closer (since previous studies have focused on binary predictions such as increase or decrease, this also has no clear criterion), but it is vulnerable to rapid increases and decreases, and similar prediction performance is shown in other industries. I can't guarantee.
+We only trained two years of data from the semiconductor, pharmaceutical (bio) and telecommunications industries. In this industry, the model seems to predict somewhat closer (since previous studies have focused on binary predictions such as increase or decrease, this also has no clear criterion), but it is vulnerable to rapid increases and decreases, and I can't guarantee that similar prediction performance is shown in other industries.
 
 ---
 ### Link of Full Report
