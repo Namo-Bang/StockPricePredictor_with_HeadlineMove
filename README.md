@@ -5,6 +5,8 @@
 ### Project Topic
 __Stock price prediction modeling for short-term investment using LSTM and Headline Move__
 
+__I was involved in data preprocessing, modeling, error correction formula development, and code refactoring.__
+
 ### Engineering Environment
 module|version
 ---|---
